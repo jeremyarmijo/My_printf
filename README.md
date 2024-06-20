@@ -1,4 +1,4 @@
-# my_printf
+# My_printf - Epitech project
 
 ## Introduction
 
@@ -31,4 +31,8 @@ int main() {
     my_printf("Hello, %s!\n", "world");
     return 0;
 }
+```
+## Compilation
+```c
+gcc your_file.c libmy.a
 ```
