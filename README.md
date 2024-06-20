@@ -1,14 +1,34 @@
-# My_printf - Epitech project
+# my_printf
 
-This project involves recoding the function from the C library according to the C99 standard. The use of the entire library is forbidden except for specific functions va_start, va_end, va_arg, malloc, free and write.
+## Introduction
 
-Compile the project via Makefile to create a library named 'libmy'.
+`my_printf` is a personal project to create a custom implementation of the C standard library function `printf`. This project is part of my studies at Epitech and aims to deepen my understanding of formatted output, string manipulation, and variadic functions in C.
 
-Usage
+## Features
 
-    Clone the repository.
+- Handle various format specifiers (`%d`, `%s`, `%c`, `%x`, etc.).
+- Support for width and precision modifiers.
+- Manage output to standard output similar to the standard `printf`.
 
-    Compile the project using the provided Makefile.
+## Installation
 
-    Execute the program to test the 'my_printf' function.
+Clone the repository and compile the program:
 
+```bash
+git clone git@github.com:jeremyarmijo/my_printf.git
+cd my_printf
+make
+```
+
+## Usage
+
+Include `my_printf` in your C project and use it as you would use `printf`:
+
+```c
+#include "my_printf.h"
+
+int main() {
+    my_printf("Hello, %s!\n", "world");
+    return 0;
+}
+```
