@@ -1,7 +1,6 @@
 # My_printf - Epitech project
 
-This project involves recoding the function from the C library according to the C99 standard. The function should be prototyped as the function. The use of the entire library is forbidden except for specific functions like , , , , , and .
-Compilation
+This project involves recoding the function from the C library according to the C99 standard. The use of the entire library is forbidden except for specific functions va_start, va_end, va_arg, malloc, free and write.
 
 Compile the project via Makefile to create a library named 'libmy'.
 
